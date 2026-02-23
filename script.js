@@ -7,7 +7,6 @@ let rejected=document.getElementById('rejected_btn');
 let interviewPage=document.getElementsByClassName('job-details');
 let del= document.querySelectorAll('.icon');
 
-
 let total=0;
 let total_reject= document.querySelector('.zero');
 let sum =0;
@@ -16,7 +15,6 @@ let card_interview=document.querySelectorAll('.interview');
 
 for(let card of card_interview){
 card.addEventListener('click', function(){
-
    let apply=card.parentElement.querySelector('.applied');
     if(apply.innerText.trim() ==='INTERVIEW'){
       return;
@@ -69,7 +67,7 @@ total_reject.innerText=total;
 }
     });
 
-    interview.addEventListener('click', function(){
+interview.addEventListener('click', function(){
    allChakri.style.display='block';
      hidePage.style.display='none';
  all.style.backgroundColor='white';
@@ -92,7 +90,8 @@ let num=document.getElementById('number');
 num.innerText=sum+' of '+num.innerText;
  });  
 
-        rejected.addEventListener('click', function(){
+
+ rejected.addEventListener('click', function(){
       allChakri.style.display='block';
      hidePage.style.display='none';
      all.style.backgroundColor='white';
