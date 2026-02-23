@@ -6,7 +6,6 @@ body{
 }
 header{
     margin-bottom: 20px;
-     border:2px solid red;
 }
 
 #hide{
@@ -47,7 +46,6 @@ hr{
 .available{
     display: flex;
     justify-content: space-between;
-    border:2px solid green;
 }
 .available-jobs{
     font-weight: bold;
@@ -65,7 +63,6 @@ button{
     
 }
 .all{
-    border:2px solid yellow;
     padding-bottom: 20px;
     display: flex;
     gap:10px;
@@ -83,7 +80,6 @@ button{
 }
 .job-details{
     margin:20px;
-    border:2px solid red;
     background-color: white;
     border-radius: 5px;
     padding:20px;
