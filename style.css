@@ -1,0 +1,117 @@
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ max-width: 1000px;
+ margin:0 auto;
+ background-color:aliceblue;
+}
+header{
+    margin-bottom: 20px;
+     border:2px solid red;
+}
+
+#hide{
+    border:2px solid blue;
+    padding: 50px;
+    text-align: center;
+    display: none;
+}
+.job{
+    color:rgb(8, 8, 68);
+}
+.card{
+    display: flex;
+    gap:20px;
+}
+.item{
+    width:350px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    height: 97px;
+}
+.item span{
+    font-weight: bolder;
+}
+.eight{
+    color:rgb(8, 8, 68);
+}
+#zero{
+    color:red;
+}
+.zero{
+   color: green;
+}
+hr{
+    color:white;
+}
+.available{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid green;
+}
+.available-jobs{
+    font-weight: bold;
+    color:rgb(8, 8, 68);
+}
+button{
+    cursor: pointer;
+}
+.all button{
+    width: 80px;
+    height: 32px;
+    background-color:white;
+    border-radius: 5px;
+    border:none;
+    
+}
+.all{
+    border:2px solid yellow;
+    padding-bottom: 20px;
+    display: flex;
+    gap:10px;
+}
+.salary ul{
+  display: flex;
+  gap:30px;
+}
+.time{
+    display: flex;
+}
+.delete{
+    display: flex;
+    justify-content: space-between;
+}
+.job-details{
+    margin:20px;
+    border:2px solid red;
+    background-color: white;
+    border-radius: 5px;
+    padding:20px;
+}
+.applied{
+    background-color:rgb(213, 213, 241);
+    border-radius: 5px;
+    padding:10px;
+}
+.interview{
+    border: 2px solid green;
+    color:green;
+    border-radius: 5px;
+   
+}
+.rejected{
+    border:2px solid red;
+    color:red;
+    border-radius: 5px;
+}
+.interview:hover{
+    background-color: rgb(172, 237, 172);
+}
+.rejected:hover{
+    background-color:rgb(227, 149, 149);
+}
+.interview, .rejected{
+    padding: 10px;
+    background-color: white;
+}
+
