@@ -110,7 +110,7 @@ if(total===0){
   hidePage.style.display='block';
 }
 let num=document.getElementById('number');
-num.innerText=total+'of 8 jobs';
+num.innerText=total+'of'+ num.innerText;
     });
 
 all.click();
