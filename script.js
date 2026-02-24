@@ -64,6 +64,7 @@ total_reject.innerText=total;
      for(let page of interviewPage){
       page.style.display='block';
 }
+document.getElementById('number').innerText=interviewPage.length+ ' jobs';
     });
 
 interview.addEventListener('click', function(){
@@ -85,7 +86,7 @@ if(sum===0){
   allChakri.style.display='none';
   hidePage.style.display='block';
 }
-document.getElementById('number').innerText=sum+' of '+interviewPage.length+ 'jobs';
+document.getElementById('number').innerText=sum+' of '+interviewPage.length+ ' jobs';
  });
 
   
@@ -111,7 +112,7 @@ if(total===0){
   allChakri.style.display='none';
   hidePage.style.display='block';
 }
-document.getElementById('number').innerText=total+' of '+interviewPage.length+ 'jobs';
+document.getElementById('number').innerText=total+' of '+interviewPage.length+ ' jobs';
     });
    
 
@@ -134,7 +135,7 @@ dlt.addEventListener('click',function(event){
  trashh.remove();
  let notRemove= document.getElementsByClassName('job-details').length;
 document.querySelector('.eight').innerText=notRemove;
-document.getElementById('number').innerText=notRemove + 'jobs';
+document.getElementById('number').innerText=notRemove + ' jobs';
 if(notRemove===0){
   allChakri.style.display='none';
   hidePage.style.display='block';
