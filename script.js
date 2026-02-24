@@ -23,13 +23,12 @@ card.addEventListener('click', function(){
       total--;
      total_reject.innerText=total; 
      }
-   else if(apply.innerText.trim() !=='INTERVIEW'){
    apply.innerHTML=card.innerHTML;
   apply.style.backgroundColor='rgb(202, 236, 194)';
   apply.style.color='green';
 sum++;
 total_interview.innerText=sum; 
-   }
+   
 });
 }
 
@@ -43,17 +42,17 @@ reject.addEventListener('click', function(){
    }
    if(second_apply.innerText.trim() ==='INTERVIEW'){
       sum--;
-     total_interview.innerText=total; 
+     total_interview.innerText=sum; 
      }
-   if(second_apply.innerText.trim() !=='REJECTED'){
+   
   second_apply.innerHTML=reject.innerHTML;
   second_apply.style.backgroundColor='rgb(239, 172, 154)';
   second_apply.style.color='red';
   total++;
 total_reject.innerText=total;
    }
-});
-}
+)};
+
 
 
  all.addEventListener('click',function(){
@@ -86,9 +85,10 @@ if(sum===0){
   allChakri.style.display='none';
   hidePage.style.display='block';
 }
-let num=document.getElementById('number');
-num.innerText=sum+' of '+num.innerText;
- });  
+document.getElementById('number').innerText=sum+' of '+interviewPage.length+ 'jobs';
+ });
+
+  
 
 
  rejected.addEventListener('click', function(){
@@ -97,6 +97,8 @@ num.innerText=sum+' of '+num.innerText;
      all.style.backgroundColor='white';
       interview.style.backgroundColor='white'
     rejected.style.backgroundColor='rgb(96, 146, 220)';
+     let num=document.getElementById('number');
+     num.innerText=total+'of'+ interviewPage.length+ 'jobs';
      for(let page of interviewPage){
   if(page.querySelector('.applied').innerText.trim() ==='REJECTED'){
    page.style.display='block';
@@ -109,9 +111,9 @@ if(total===0){
   allChakri.style.display='none';
   hidePage.style.display='block';
 }
-let num=document.getElementById('number');
-num.innerText=total+'of'+ num.innerText;
+document.getElementById('number').innerText=total+' of '+interviewPage.length+ 'jobs';
     });
+   
 
 all.click();
 

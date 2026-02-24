@@ -9,7 +9,6 @@ header{
 }
 
 #hide{
-    border:2px solid blue;
     padding: 50px;
     text-align: center;
     display: none;
@@ -35,10 +34,11 @@ header{
     color:rgb(8, 8, 68);
 }
 #zero{
-    color:red;
+    color: green;
 }
 .zero{
-   color: green;
+    color:red;
+  
 }
 hr{
     color:white;
