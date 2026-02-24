@@ -20,7 +20,7 @@ The event starts at an element, then reaches from the child element to parent el
 
 ### 4. What is Event Delegation in JavaScript? Why is it useful?
 Event delegation is a process where we don't need to set EventListener() for each child element and add EventListener() for their parent elemnt only.
-we can handle a click on any <li> by added EventListener() to the <ul>.
+we can handle a click on any li by added EventListener() to the ul.
 
 useful: save memory, automatically handles elements added to the DOM after initial page load., the code will be clean.
 
